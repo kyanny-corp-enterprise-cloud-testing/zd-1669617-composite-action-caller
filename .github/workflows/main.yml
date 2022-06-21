@@ -27,7 +27,7 @@ jobs:
         with:
           versionB: '2.0.0'
       - run: echo "======"
-      - uses: kyanny-corp-enterprise-cloud-testing/zd-1669617-composite-action-called@${{inputs.versionB}}
+      - uses: kyanny-corp-enterprise-cloud-testing/zd-1669617-composite-action-called@main
         with:
           versionB: '3.0.0'
       - run: echo "=== END ==="
