@@ -10,5 +10,5 @@ jobs:
     name: A job to say hello
     steps:
       - run: echo "=== START ==="
-      - uses: zd-1669617-composite-action-called@main
+      - uses: kyanny-corp-enterprise-cloud-testing/zd-1669617-composite-action-called@main
       - run: echo "=== END ==="
